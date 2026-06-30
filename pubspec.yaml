@@ -1,0 +1,87 @@
+name: taif_alamin
+description: "A new Flutter project."
+publish_to: 'none'
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  window_manager: ^0.5.1
+  go_router: ^17.1.0
+  provider: ^6.1.5+1
+  #
+  shtable: ^0.1.0
+  #
+  barcode: ^2.2.9
+  flutter_svg: ^2.2.4
+  # Data
+  data_table_2: ^2.7.2
+  sqflite_common_ffi: ^2.4.0+2
+  # File Handling
+  file_selector: ^1.0.3
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  intl: ^0.20.2
+  #
+  archive: ^3.6.1
+  xml: ^6.6.1
+  # MS-Office
+  excel: ^4.0.6
+  #docx_template: ^0.4.0
+  uuid: ^4.5.3
+  # Adanced Math
+  decimal: ^3.2.4
+  #
+  fl_chart: ^1.2.0
+  pdf: ^3.12.0
+  printing: ^5.14.3
+  # http handling -retrofit-
+  retrofit: ^4.9.0
+  http: ^1.2.0
+  logger: ^2.6.0
+  json_annotation: ^4.9.0
+  # statement
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.8
+  # secure storage
+  sqflite_sqlcipher: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # http handling -retrofit-
+  retrofit_generator: ^10.0.1
+  build_runner: ^2.6.0
+  json_serializable: ^6.10.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/server/
+    - assets/templates/
+    - icons/
+    - icons/window/
+    - icons/home/
+    - icons/fabric/
+    - icons/paint/
+    - icons/wood/
+    - icons/purchases/
+    - icons/extra/
+
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: fonts/amiri/Amiri-Regular.ttf
+        - asset: fonts/amiri/Amiri-Italic.ttf
+          style: italic
+        - asset: fonts/amiri/Amiri-Bold.ttf
+          weight: 700
+        - asset: fonts/amiri/Amiri-BoldItalic.ttf
+          style: italic
+          weight: 700
